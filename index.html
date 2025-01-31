@@ -22,7 +22,7 @@
     <div class="profile">
       <img src="images\bhanu.png" alt="profile-img">
       <h2>Hello.</h2>
-      <p>I'm Bhanu, currently pursuing MTech in CSE at NITK and previously completed my BTech at IIIT Dharwad. I have experience in backend development and deep learning and have secured a placement at Qualcomm.</p>
+      <p>I'm Bhanu, currently pursuing MTech in CSE at NITK and completed my BTech at IIIT Dharwad.</p>
     </div>
 
     <hr>
@@ -32,13 +32,24 @@
       <div class="skill-row">
         <img class="code-img" src="https://media2.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif?cid=790b7611297c3c930f4635f14372b3df774d9bd8158e37a5&rid=giphy.gif&ct=s" alt="computer img">
         <h3>Programming</h3>
-        <p>I started Programming after i joined in computer science engineering. Now I learned Programming in C, C++, Python. And I like Compiler design. Also I'm GATE 2023 aspirant.</p>
+        <p>I started programming after joining Computer Science Engineering. Now, I’m proficient in C, C++, and Python.</p>
       </div>
       <div class="skill-row">
-        <img class="cinema-img" src="https://cdn-icons.flaticon.com/png/512/5724/premium/5724397.png?token=exp=1635817096~hmac=6254805d7a4e234fd427c7b5074e49db" alt="cartoon img">
-        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-        <h3>Love for Movies</h3>
-        <p>Most of time I spend time with movies, k drama. My talent is to watching movies non-stop 😁. I learned many things from cinemas rather than in real life.</p>
+        <img class="cinema-img" src="images/dsa.png" alt="dsa img">
+        <h3>Data Structures & Algorithms</h3>
+        <p>I have solved over 350 problems on platforms like LeetCode, GFG, and Coding Ninjas. I followed Striver’s A2Z DSA sheet to strengthen my problem-solving skills and algorithmic thinking.</p>
+      </div>
+      
+      <div class="skill-row">
+        <img class="code-img" src="images/backend.png" alt="backend img">
+        <h3>Backend Development</h3>
+        <p>I have experience in backend development using Python, working with APIs, databases, and server-side logic. My internship at Ylytic gave me hands-on exposure to building and optimizing backend systems.</p>
+      </div>
+      
+      <div class="skill-row">
+        <img class="cinema-img" src="images/ml.png" alt="ml img">
+        <h3>Deep Learning & Machine Learning</h3>
+        <p>As part of my MTech project, I am working on a session-based recommendation system. I have experience with deep learning frameworks like TensorFlow and PyTorch, applying them to real-world machine-learning problems.</p>
       </div>
     </div>
 
@@ -46,8 +57,8 @@
 
     <div class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>If you love movies or k-drama as much as I do.</h3>
-      <p class="contact-msg">Love of your life is Movies? Let me know your favorite k-drama! We can code while watching movie. </p>
+      <h3>Let’s Build & Innovate Together!</h3>
+      <p class="contact-msg">If you're passionate about technology, backend development, or data science, feel free to connect! I'm always open to discussing innovative ideas, collaborating on projects, or sharing insights. Let's connect and build something great together.</p>
       <a class="btn" href="mailto:bhanusahana@email.com">CONTACT ME</button></a>
     </div>
   </div>
@@ -57,9 +68,11 @@
     <a class="footer-link" href="https://www.linkedin.com/in/bhanupriya-t-p-55645b20a/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/jeon_1211">Twitter</a>
     <a class="footer-link" href="https://sana-light.github.io/cv/">Website</a>
-    <p class="copy-right">© 2019 Bhanupriya T P @ Iiit Dharwad.</p>
+    <p class="copy-right">© 2019 - <span id="year"></span> Bhanupriya T P @ IIIT Dharwad.</p>
   </div>
-
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 
